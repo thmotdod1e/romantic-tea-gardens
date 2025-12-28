@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#f5f5dc" stroke="#ccc" stroke-width="2"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#333">The Folly View Nook – Layout</text>
+  
+  <!-- Folly (eye‑catcher) -->
+  <rect x="600" y="200" width="80" height="120" fill="#a9a9a9" stroke="#555" stroke-width="3"/>
+  <text x="640" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#222">Folly</text>
+  
+  <!-- Seating Area (bench) -->
+  <rect x="200" y="250" width="120" height="40" fill="#8b4513" stroke="#654321" stroke-width="2"/>
+  <text x="260" y="275" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#fff">Bench</text>
+  
+  <!-- Path (winding from bottom left to seating area and towards folly) -->
+  <path d="M 100,500 Q 200,400 250,300 Q 300,250 350,250 Q 400,250 450,250 L 550,250 L 600,250" 
+        fill="none" stroke="#deb887" stroke-width="20" stroke-linecap="round"/>
+  <text x="350" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#8b7355">Path</text>
+  
+  <!-- Planting areas (lavender borders) -->
+  <ellipse cx="150" cy="200" rx="60" ry="30" fill="#9370db" opacity="0.6" stroke="#4b0082" stroke-width="2"/>
+  <text x="150" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#fff">Lavender</text>
+  
+  <ellipse cx="350" cy="150" rx="70" ry="40" fill="#9370db" opacity="0.6" stroke="#4b0082" stroke-width="2"/>
+  <text x="350" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#fff">Lavender</text>
+  
+  <!-- Climbing roses (on trellis near seating) -->
+  <rect x="180" y="180" width="10" height="100" fill="#654321"/>
+  <rect x="330" y="180" width="10" height="100" fill="#654321"/>
+  <text x="255" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#b22222">Roses on trellis</text>
+  
+  <!-- Ground cover thyme (between stepping stones) -->
+  <circle cx="300" cy="350" r="15" fill="#90ee90" opacity="0.7"/>
+  <circle cx="400" cy="320" r="15" fill="#90ee90" opacity="0.7"/>
+  <circle cx="500" cy="300" r="15" fill="#90ee90" opacity="0.7"/>
+  <text x="400" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2e8b57">Thyme patches</text>
+  
+  <!-- Sight‑line (dashed arrow from bench to folly) -->
+  <line x1="260" y1="250" x2="600" y2="260" stroke="#ff4500" stroke-width="3" stroke-dasharray="10,5"/>
+  <polygon points="600,260 590,255 590,265" fill="#ff4500"/>
+  <text x="430" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#ff4500">View to folly</text>
+  
+  <!-- Legend -->
+  <rect x="20" y="450" width="200" height="130" fill="#fff" stroke="#999" stroke-width="1"/>
+  <text x="120" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#333">Legend</text>
+  <circle cx="40" cy="490" r="8" fill="#8b4513"/><text x="60" y="495" font-family="Arial, sans-serif" font-size="12">Bench</text>
+  <circle cx="40" cy="510" r="8" fill="#a9a9a9"/><text x="60" y="515" font-family="Arial, sans-serif" font-size="12">Folly</text>
+  <circle cx="40" cy="530" r="8" fill="#deb887"/><text x="60" y="535" font-family="Arial, sans-serif" font-size="12">Path</text>
+  <circle cx="40" cy="550" r="8" fill="#9370db" opacity="0.6"/><text x="60" y="555" font-family="Arial, sans-serif" font-size="12">Lavender border</text>
+</svg>
